@@ -18,96 +18,76 @@ By the end of this challenge, you will have:
 
 ### Git and GitHub Setup
 
-To track and manage your project files efficiently, we will use **Git** for version control and **GitHub** as a remote repository. Follow these steps:
+To begin the challenge, you'll create a new repository based on a template repository. Follow the steps below to set up your Git and GitHub environment:
 
-1. **Create a GitHub Repository**:
+1. **Create a New Repository from the Template**:
 
-   - Log in to your GitHub account (or create one if you don't have it).
-   - Create a new repository named **00_html-semantics**.
-   - Do not initialize the repository with a README, `.gitignore`, or any license.
+   - Go to the [00_semantic-html-css template repository](https://github.com/DAW-Escola-Pia-Mataro-Client-24-25/00_semantic-html-css).
+   - Click the green **"Use this template"** button at the top of the page.
+   - In the **"Create a new repository"** page:
+     - Set the repository name as `00_semantic-html-css`.
+     - Choose visibility as _Public_.
+     - Click **"Create repository from template"** to generate a new repository in your GitHub account.
 
-2. **Set Up Local Environment**:
+2. **Clone the New Repository to Your Local Machine**:
 
-   - On your local machine, open a terminal/command line.
-   - Navigate to your working directory where you want to create the project.
-
-   ```bash
-   mkdir client-side-module
-   cd client-side-module
-   ```
-
-3. **Clone the Remote Repository**:
-
-   - Clone the remote repository to your local machine inside the `client-side-module` directory:
+   - Open a terminal on your local machine and clone the newly created repository:
 
    ```bash
-   git clone https://github.com/your-username/00_html-semantics.git
+   git clone https://github.com/<YOUR-USERNAME>/00_semantic-html-css.git
    ```
 
-4. **Verify Your Setup**:
+   - Replace `<YOUR-USERNAME>` with your GitHub username.
 
-   - Move into the cloned repository directory:
+3. **Navigate to the Project Directory**:
+
+   - Move into the cloned repository’s directory:
 
    ```bash
-   cd 00_html-semantics
+   cd 00_semantic-html-css
    ```
 
-   - Ensure that you are inside the repository by running:
+4. **Create a New `develop` Branch**:
 
-   ```bash
-   git status
-   ```
-
-   You should see that you are on the `main` branch with no changes made yet.
-
-5. **Create a New Branch**:
-
-   - Create a new branch called `develop` from the `main` branch where you will implement the challenge.
+   - Inside the repository, create a new branch called `develop` to work on the challenge:
 
    ```bash
    git checkout -b develop
    ```
 
-   Now you are on the `develop` branch. All the challenge work should be done in this branch.
+5. **Work on the Challenge**:
 
-6. **Push `develop` Branch to GitHub**:
-
-   - Push the `develop` branch to the remote repository so it can be tracked:
-
-   ```bash
-   git push -u origin develop
-   ```
-
-7. **Complete the Challenge in the `develop` Branch**:
-
-   - Implement the challenge by adding the required `index.html`, `style.css`, and `sanitize.css` files in the `develop` branch.
-   - Use Git to track your changes by running:
+   - Modify the `index.html`, `style.css`, and `sanitize.css` files as required by the challenge.
+   - As you make progress, add and commit your changes:
 
    ```bash
    git add .
-   git commit -m "Add challenge files"
+   git commit -m "Initial implementation of the challenge"
    ```
 
-   - Push the changes to the `develop` branch on GitHub:
+6. **Push Changes to GitHub**:
+
+   - Push your local `develop` branch to your GitHub repository:
 
    ```bash
-   git push
+   git push origin develop
    ```
 
-8. **Create a Pull Request**:
+7. **Create a Pull Request**:
 
-   - After finishing the challenge, go to your repository on GitHub.
-   - You will see an option to create a pull request (PR) for merging `develop` into `main`.
-   - Click on **Compare & pull request** and provide a meaningful description for the PR.
-   - Make sure to review your code and ensure everything is correct before submitting the PR.
+   - Once your changes are committed and pushed to the `develop` branch, open your repository on GitHub.
+   - Click on the "Compare & pull request" button.
+   - Ensure that the pull request (PR) is set to merge `develop` into `main`.
+   - Add a description of your work and submit the PR.
 
-9. **Merge via Pull Request**:
-   - Once the pull request is created, the changes in the `develop` branch can be reviewed.
-   - After the review, you can **merge** the `develop` branch into `main` using the **Merge pull request** button.
-   - Ensure no direct commits are made to `main`. All updates must go through the pull request process from `develop` to `main`.
+8. **Review and Merge the Pull Request**:
+   - Review the changes made in the `develop` branch, and if everything looks good, merge the pull request into `main`.
+   - All changes should be made on the `develop` branch and merged into `main` via a pull request to maintain version control best practices.
 
-By using the **branching model** and pull requests, you ensure a clean and collaborative workflow for development. This also prepares you for working in team-based environments where code reviews and feature branches are common practice.
-warning. PR can be only merged into main under teacher approve
+Following these steps ensures an organized workflow while working on the challenge using Git and GitHub, as well as proper branching strategies.
+
+> [!WARNING]  
+> Pull Request can be only merged under teacher approve.
 
 # Challenge
 
@@ -117,7 +97,7 @@ In this challenge, you will recreate the HTML and CSS interface based on the cod
 
 1. **Create `index.html` File**:
 
-   - In the `00_html-semantics` folder, create an `index.html` file.
+   - In the `00_semantic-html-css` folder, create an `index.html` file.
    - The `index.html` file must contain semantic HTML..
    - Include a form in the main section, as demonstrated in the previous example, and include appropriate semantic tags.
 
@@ -156,7 +136,7 @@ Now that your project is ready, it's time to deploy it online using **Netlify**.
 
    - In the Netlify dashboard, click on **Add New Site** and choose **Import an existing project**.
    - Select **GitHub** as the source and authenticate your GitHub account.
-   - Find and select your `00_html-semantics` repository.
+   - Find and select your `00_semantic-html-css` repository.
 
 3. **Configure Deployment Settings**:
 
