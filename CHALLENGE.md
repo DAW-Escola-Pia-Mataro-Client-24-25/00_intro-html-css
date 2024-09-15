@@ -93,7 +93,11 @@ Following these steps ensures an organized workflow while working on the challen
 
 ### Requirements
 
-In this challenge, you will recreate the HTML and CSS interface based on the code provided in previous examples. Follow the steps below to complete your task:
+In this challenge, you will recreate the HTML and CSS interface.
+
+![00_semantic-html-css__layout](./assets/00_semantic-html-css__layout.png)
+
+Follow the steps below to complete your task:
 
 1. **Create `index.html` File**:
 
@@ -108,7 +112,13 @@ In this challenge, you will recreate the HTML and CSS interface based on the cod
      - Ensure that the content is centered.
      - Set a 100% wide header.
      - Place sections as described (side-by-side).
-     - Use a simple chromatic palette for design.
+     - Use a simple chromatic palette for design:
+       - header & footer bg color: #4a90e2;
+       - main bg color: #f0f4f8;
+       - main text color: #333;
+       - containers bg color: #ffffff; (form and resources)
+       - button bg color: #ff5722;
+       - button hover color: #e64a19;
 
 3. **Create `sanitize.css` File**:
 
