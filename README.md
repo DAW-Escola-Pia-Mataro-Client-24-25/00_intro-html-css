@@ -344,11 +344,8 @@ In CSS, selectors are used to target HTML elements for styling. Here’s an exte
 
     This will apply the same font family to all `<h1>`, `<h2>`, and `<h3>` elements.
 
----
-
-These selectors allow for precise targeting of HTML elements, enabling you to create complex styles and behaviors across different parts of your web page. They are fundamental to applying styles efficiently and cleanly in CSS.
-
----
+> [!Tip]  
+> These selectors allow for precise targeting of HTML elements, enabling you to create complex styles and behaviors across different parts of your web page. They are fundamental to applying styles efficiently and cleanly in CSS.
 
 ## CI/CD
 
